@@ -1,3 +1,9 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    /* background-color: #532; */
+    background-image: url(https://th.bing.com/th/id/R.8245c7ef41fe93af7d9a27866eb772a5?rik=%2fz91J3udqkTFoA&riu=http%3a%2f%2fwww.villelapeche.qc.ca%2fimages%2fgalerie%2fphoto6.jpg&ehk=IA9PGA5G54NjI4EZrfC3EOfZfAa3CCBjiGFc4IkVZIc%3d&risl=1&pid=ImgRaw&r=0);
+}
 h2 {
     color: wheat;
     background-color: saddlebrown;
@@ -12,7 +18,12 @@ h2 {
     height: 100px;
 }
 #paragrafi2 {
-        color:green;
+        color:rgb(16, 241, 16);
+        border-color: rgb(255, 80, 133);
+        border-width: 10px;
+        border-style: solid;
+        padding: 25;
+
 }
 .container {
     width: 600px;
@@ -28,4 +39,19 @@ a.visited {
     color: blue;
 }.afbeelding {
     width: 200px;
+}
+button {
+    height: 50px;
+    width: 150px;
+    background-color: rgb(76, 63, 143);
+    color: red;
+    font-size: 35px;
+    border-radius: 50%;
+    border: none;
+}
+button:hover {
+    background-color: azure;
+    color: black;
+    cursor: pointer;
+    border: 3px dashed green;
 }
