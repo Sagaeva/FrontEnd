@@ -1,0 +1,31 @@
+h2 {
+    color: wheat;
+    background-color: saddlebrown;
+}
+.tittle {
+    color: black;
+    background-color: red;
+}
+#paragrafi {
+    background-color: aquamarine;
+    color: black;
+    height: 100px;
+}
+#paragrafi2 {
+        color:green;
+}
+.container {
+    width: 600px;
+}
+a{
+    text-decoration: none;
+}
+a.hover {
+    font-size: 30px;
+    color: red;
+}
+a.visited {
+    color: blue;
+}.afbeelding {
+    width: 200px;
+}
