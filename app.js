@@ -77,3 +77,88 @@ function gemiddelde(a,b) {
 }
 gemiddelde(a,b)
 console.log(z)
+
+
+//filter
+var studenten = [
+    {
+        id: 1,
+        naam: "Jos",
+        cursus: "Java",
+        punten: 31
+    },
+
+    {
+        id: 2,
+        naam: "Louis",
+        cursus: "Java",
+        punten: 20
+    },
+
+    {
+        id: 3,
+        naam: "Marc",
+        cursus: "Java",
+        punten: 22
+    },
+
+    {
+        id: 4,
+        naam: "Josepha",
+        cursus: "Java",
+        punten: 53
+    },
+
+    {
+        id: 5,
+        naam: "Yana",
+        cursus: "Java",
+        punten: 55
+    }
+]
+
+let geslaagd = studenten.filter(diploma)
+
+function diploma(punt) {
+    return punt.punten >=50
+
+}
+console.log(geslaagd)
+
+//Events
+let num1 = document.getElementById("num1")
+console.log(Number(num1.value))
+let num2 = document.getElementById("num2")
+let som;
+let uitkomst = document.getElementById("uitkomst")
+function bereken() {
+    som = Number(num1.value) + Number(num2.value)
+    uitkomst.innerHTML = "De uitkomst is " + som
+
+}
+let counter = document.getElementById("counter")
+let optellen = document.getElementById("optellen")
+let aftrekken = document.getElementById("aftrekken")
+let reset = document.getElementById("rest")
+let count = 0
+
+optellen.addEventListener("click", function(){
+    count++
+    counter.innerHTML = count
+    console.log(count)
+
+})
+aftrekken.addEventListener("click", function() {
+    count--
+    counter.innerHTML = count
+    console.log(count)
+} )
+reset.addEventListener("click", function() {
+   
+    count = 0
+   counter.innerHTML = count
+    console.log(count)
+
+    
+})
+
